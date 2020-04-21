@@ -23,7 +23,6 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Fragment>
-          
 
           <div className="container">
             <Form 
@@ -32,8 +31,6 @@ class App extends Component {
             searchbylandmark={this.searchbylandmark}
             searchbylockername={this.searchbylockername}
              />
-            
-            
           </div>
         </Fragment>
 
