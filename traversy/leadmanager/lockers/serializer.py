@@ -11,3 +11,4 @@ class LockerAvailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Availability
         fields = ('lockerid','non_del_days','timings_open','timings_closed','status')
+

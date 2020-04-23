@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Fragment>
-        
+  
           <div className="container">
             <Form 
             searchbyaddress={this.searchbyaddress}
@@ -33,8 +33,8 @@ class App extends Component {
             searchbylandmark={this.searchbylandmark}
             searchbylockername={this.searchbylockername}
              />
-          </div>
-          <LockersList/>
+             <LockersList/>
+          </div> 
         </Fragment>
 
       </Provider>
