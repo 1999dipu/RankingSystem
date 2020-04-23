@@ -78,7 +78,7 @@ export class Form extends Component {
                               <b>Search by Zip Code:</b>
                           </td>
                           <td valign="top">
-                              <input type="text" name="storeZip" size="5" maxLength="5" value={this.state.zip} onChange={this.onChangezip} />
+                              <input type="text" name="storeZip" size="6" maxLength="6" value={this.state.zip} onChange={this.onChangezip} />
                             <font size="1">&nbsp;e.g. 98109</font><br/>
                             
                                                        
